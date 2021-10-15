@@ -5,7 +5,7 @@ Ler e executar com atenção os Requisitos
 
 ## Requisitos
 Este micro e-mail depende do micro_01, portanto, primeiramente subir o [micro-01](https://github.com/dompossebon/Laravel-Microservice-RabbitMQ-01)
-E também depende do micro_01, portanto, também subir o [micro-02](https://github.com/dompossebon/Laravel-Microservice-RabbitMQ-02)
+E também depende do micro_02, portanto, também subir o [micro-02](https://github.com/dompossebon/Laravel-Microservice-RabbitMQ-02)
 
 ### Instalação
 Clonar Projeto
