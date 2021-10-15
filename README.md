@@ -1,5 +1,7 @@
-# Laravel Microservices com RabbitMQ (micro e-mail)
-Precisa do serviço Micro_01 para funcionar
+# Laravel-Microservice-Email
+Micro-Email - Laravel Microservices Integrado RabbitMQ - Dockerizado - nginx:alpine - redis:latest
+
+Ler e executar com atenção os Requisitos
 
 ## Requisitos
 Este micro e-mail depende do micro_01, portanto, primeiramente subir o [micro-01](https://github.com/dompossebon/Laravel-Microservice-RabbitMQ-01)
@@ -8,12 +10,12 @@ E também depende do micro_01, portanto, também subir o [micro-02](https://gith
 ### Instalação
 Clonar Projeto
 ```sh
-git clone https://github.com/especializati/laravel-micro-email
+git clone https://github.com/dompossebon/-Laravel-Microservice-Email.git micro-mail
 ```
 
 Acessar o projeto
 ```sh
-cd laravel-micro-email
+cd micro-mail
 ```
 
 Criar o Arquivo .env
@@ -26,10 +28,10 @@ Atualizar as variáveis de ambiente do arquivo .env
 APP_URL=http://localhost:8005
 
 CACHE_DRIVER=redis
-QUEUE_CONNECTION=redis
+QUEUE_CONNECTION=rabbitmq
 SESSION_DRIVER=redis
 
-REDIS_HOST=redis
+REDIS_HOST=redis_micro_mail
 REDIS_PASSWORD=null
 REDIS_PORT=6379
 ```
